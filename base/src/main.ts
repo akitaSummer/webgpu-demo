@@ -1,1 +1,1 @@
-import "./16_torus_wireframe copy";
+import "./22_torus_with_lighting";
