@@ -1,1 +1,1 @@
-import "./22_torus_with_lighting";
+import "./26_peaks_surface";

@@ -7,6 +7,9 @@ dependencies:
   gl-matrix:
     specifier: ^3.3.0
     version: 3.3.0
+  interpolate-arrays:
+    specifier: ^1.0.4
+    version: 1.0.4
   jquery:
     specifier: ^3.6.0
     version: 3.6.0
@@ -505,6 +508,12 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
+  /interpolate-arrays@1.0.4:
+    resolution: {integrity: sha512-UeA2YOKn59/SsTuqW6NrvEOyo9246OyIrnna1HgeuCkEcnuAxB9jIr76KHhkbqnp19WzWA9n80N8XqThGasM/w==}
+    dependencies:
+      lerp-array: 1.1.1
+    dev: false
+
   /is-browser@2.1.0:
     resolution: {integrity: sha512-F5rTJxDQ2sW81fcfOR1GnCXT6sVJC104fCyfj+mjpwNEwaPYSn5fte5jiHmBg3DHsIoL/l8Kvw5VN5SsTRcRFQ==}
     dev: false
@@ -534,6 +543,16 @@ packages:
 
   /jquery@3.6.0:
     resolution: {integrity: sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==}
+    dev: false
+
+  /lerp-array@1.1.1:
+    resolution: {integrity: sha512-oQtU35G2cAeHNXLFmFXgWINJRNwglf+4gKjRIHVdq9VnDpwxaDaAaCTz2FAkieqkLmRNIySoge6vBjuBLOJIpw==}
+    dependencies:
+      lerp: 1.0.3
+    dev: false
+
+  /lerp@1.0.3:
+    resolution: {integrity: sha512-70Rh4rCkJDvwWiTsyZ1HmJGvnyfFah4m6iTux29XmasRiZPDBpT9Cfa4ai73+uLZxnlKruUS62jj2lb11wURiA==}
     dev: false
 
   /magic-string@0.25.9:
