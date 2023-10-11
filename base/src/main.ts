@@ -1,1 +1,1 @@
-import "./26_peaks_surface";
+import "./40_texture_wellenkugel_surface";
