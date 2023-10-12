@@ -1,1 +1,1 @@
-import "./40_texture_wellenkugel_surface";
+import "./48_wellenkugel_surface_chart";
