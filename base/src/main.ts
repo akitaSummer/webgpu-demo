@@ -1,1 +1,1 @@
-import "./48_wellenkugel_surface_chart";
+import "./52_multiple_object_using_different_pipelines";
