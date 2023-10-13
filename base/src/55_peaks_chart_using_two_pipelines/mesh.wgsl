@@ -1,0 +1,21 @@
+//vertex shader
+struct Uniforms {
+    viewProjectionMatrix : mat4x4 < f32>,
+    modelMatrix : mat4x4 < f32>,
+};
+@binding(0) @group(0) var<uniform> uniforms : Uniforms;
+@vertex
+fn vs_main(@location(0) position : vec4 < f32>) -> @builtin(position) vec4 < f32> {
+    return uniforms.viewProjectionMatrix * uniforms.modelMatrix * position;
+}
+
+//fragment shader
+struct FragUniforms {
+    color : vec4 < f32>,
+};
+@binding(0) @group(1) var<uniform> fragUniforms : FragUniforms;
+
+@fragment
+fn fs_main() -> @location(0) vec4 < f32> {
+    return fragUniforms.color;
+}

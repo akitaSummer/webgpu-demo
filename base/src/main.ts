@@ -1,1 +1,1 @@
-import "./52_multiple_object_using_different_pipelines";
+import "./57_domain_coloring_for_complex_functions";
